@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+
+<head>
+  <title> Club Registration Form </title>
+</head>
+
+<body>
+  <div id="Titlediv">
+    <h1 id="title"> Club Registration Form</h1>
+
+    <p id="description"> Fill out the form to register with the club</p>
+
+  </div>
+  <br>
+  <div id="formdiv">
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label">Name</label><br>
+        <input id="name" type="text" placeholder="Enter your Name" required>
+      </div>
+      <div class="form-group">
+        <label id="email-label">Email</label><br>
+        <input id="email" type="email" placeholder="Enter your Email" required><br>
+      </div>
+      <div class="form-group">
+        <label id="number-label">Age</label><br>
+        <input id="number" type="number" Placeholder="Enter your Age" min="1" max="100"><br>
+      </div>
+      <div class="form-group">
+        <label id="interestedarea">Choose your Country</label><br>
+        <select id="dropdown">
+          <option>UK</option>
+          <option>Canada</option>
+          <option>Australia</option>
+        </select>
+      </div>
+      <p>Please choose your gender</p>
+      <input type="radio" name="gender" value="Male">
+      <label>Male</label>
+      <input type="radio" name="gender" value="female">
+      <label>Female</label>
+      <input type="radio" name="gender" value="other">
+      <label>Other</label><br>
+      <p>Choose your favourite Sports</p>
+      <input type="checkbox" value="cricket">
+      <label>Cricket</label>
+      <input type="checkbox" value="football">
+      <label>Football</label>
+      <input type="checkbox" value="tennis">
+      <label>Tennis</label>
+      <input type="checkbox" value="hockey">
+      <label>Hockey</label>
+      <input type="checkbox" value="badminton">
+      <label>Badminton</label>
+      <input type="checkbox" value="swimming">
+      <label>Swimming</label>
+
+      <p><label>Input any additional comments: (Optional)</label></p>
+      <p><textarea id="textarea"> </textarea></p>
+      <input id="submit" type="submit"></p>
+
+
+
+
+
+
+
+
+
+    </form>
+  </div>
+</body>
+
+</html>

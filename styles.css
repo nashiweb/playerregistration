@@ -1,0 +1,107 @@
+/*
+h1 {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+
+}*/
+
+body {
+    background: url(https://wallpaperaccess.com/full/3129566.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    background-position: center;
+    resize: both;
+    overflow: scroll;
+}
+
+
+
+#Titlediv {
+    text-align: center;
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px cornflowerblue;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    justify-content: center;
+    margin: auto;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    width: 500px;
+    background-color: black;
+    
+        
+}
+
+#formdiv {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rtrans
+    ed;
+    border-radius: 20px; 
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 2px 2px 15px rgb(255, 255, 255);
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: black
+    ;
+    
+    }
+/*
+@media (max-width: 480px) {
+   
+    #formdiv { 
+        top: 50%;
+        left: 50%;
+        display: block;
+        position: absolute;
+    }
+
+}*/
+
+label {
+    font-weight: 400;
+    ;
+}
+
+#survey-form {
+    border: none;
+    
+}
+
+#name, #email, #number, #textarea {
+    background-color: yellow;
+    height: 25px;
+    border-bottom: 1px solid yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    ;
+    }
+
+#dropdown {
+    background-color: yellow;
+    height: 30px;
+}
+
+radio {
+    background-color: rgb(243, 241, 137);
+}
+
+#submit {
+    border: none;
+    background-color: greenyellow;
+    height: 40px;
+    width: 80px;
+}
+
+#submit:hover {
+    background-color: red;
+    cursor: pointer;
+}
